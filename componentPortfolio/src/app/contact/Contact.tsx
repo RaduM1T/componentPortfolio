@@ -40,6 +40,16 @@ const Contact: React.FC = () => {
           onChange={handleChange}
           required
         />
+        <div>
+        <input
+          type="checkbox"
+          name="GDPR"
+          onChange={handleChange}
+          required
+        />
+        <label htmlFor="GDPR">I agree to be contacted by the owner of this site on my email</label>
+        </div>
+        
         <button type="submit">Send Message</button>
       </form>
     </div>
