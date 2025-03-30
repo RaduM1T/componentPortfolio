@@ -8,6 +8,8 @@ const Navbar: React.FC = () => {
             <ul>
                 <li><a href="/projects" className="menu-item">Projects</a></li>
                 <li><a href="/contact" className="menu-item">Contact</a></li>
+                <li><a href="/resume" className="menu-item">Resume</a></li>
+                
             </ul>
         </nav>
     );
